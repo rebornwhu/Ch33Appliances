@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		899649D11AD9DE0E0011EED3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 899649D01AD9DE0E0011EED3 /* main.m */; };
+		899649D91AD9DF350011EED3 /* BNRAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = 899649D81AD9DF350011EED3 /* BNRAppliance.m */; };
+		899649DC1AD9DF570011EED3 /* BNROwnedAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = 899649DB1AD9DF570011EED3 /* BNROwnedAppliance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		899649CD1AD9DE0E0011EED3 /* Ch33Appliances */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ch33Appliances; sourceTree = BUILT_PRODUCTS_DIR; };
 		899649D01AD9DE0E0011EED3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		899649D71AD9DF350011EED3 /* BNRAppliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRAppliance.h; sourceTree = "<group>"; };
+		899649D81AD9DF350011EED3 /* BNRAppliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRAppliance.m; sourceTree = "<group>"; };
+		899649DA1AD9DF570011EED3 /* BNROwnedAppliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNROwnedAppliance.h; sourceTree = "<group>"; };
+		899649DB1AD9DF570011EED3 /* BNROwnedAppliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNROwnedAppliance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				899649D01AD9DE0E0011EED3 /* main.m */,
+				899649D71AD9DF350011EED3 /* BNRAppliance.h */,
+				899649D81AD9DF350011EED3 /* BNRAppliance.m */,
+				899649DA1AD9DF570011EED3 /* BNROwnedAppliance.h */,
+				899649DB1AD9DF570011EED3 /* BNROwnedAppliance.m */,
 			);
 			path = Ch33Appliances;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				899649D91AD9DF350011EED3 /* BNRAppliance.m in Sources */,
+				899649DC1AD9DF570011EED3 /* BNROwnedAppliance.m in Sources */,
 				899649D11AD9DE0E0011EED3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +247,7 @@
 				899649D61AD9DE0E0011EED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
