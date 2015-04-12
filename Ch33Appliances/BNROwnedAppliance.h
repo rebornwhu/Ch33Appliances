@@ -11,6 +11,8 @@
 @interface BNROwnedAppliance : BNRAppliance
 
 @property (readonly) NSSet *ownerNames;
+
+// The desginated initializer
 - (instancetype)initWithProductName:(NSString *)pn
                      firstOwnerName:(NSString *)n;
 - (void)addOwnerName:(NSString *)n;
